@@ -424,10 +424,6 @@ These exercises use the datasets `MplsStops` and `MplsDemo` from the `carData` l
   14. Use the `MplsStops` dataset to find out how many stops there were for each neighborhood and the proportion of stops that were for a suspicious vehicle or person. Sort the results from most to least number of stops. Save this as a dataset called `mpls_suspicious` and display the table.  
   
 ```{r}
-MplsStops%>%
-  group_by(neighborhood)%>%
-  mutate(number = length(idNum),
-         prop_s = )
 
 ```
   
